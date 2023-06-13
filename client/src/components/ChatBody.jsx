@@ -23,7 +23,7 @@ function ChatBody() {
   return (
     <div>
         <Chat chatList={chatList} setPrompt = {setPrompt} />
-	    <Prompt prompt={prompt} setPrompt = {setPrompt} handleSubmit={handleSubmit} />
+	      <Prompt prompt={prompt} setPrompt = {setPrompt} handleSubmit={handleSubmit} />
     </div>
   )
 }
