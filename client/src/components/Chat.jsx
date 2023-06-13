@@ -5,7 +5,7 @@ import Typewriter from "../hooks/Typewriter";
 import { Capabilities, Limitations, Exemples } from "../constant";
 import { BsSun } from "react-icons/bs";
 import {TiFlashOutline} from 'react-icons/ti'
-import { AiOutlineWarning } from "react-icons/ai";
+import {VscWarning} from 'react-icons/vsc'
 function Chat({ chatList,setPrompt}) {
   return (
     <div className="p-0.5 md:ml-[255px] mb-52">
@@ -15,7 +15,7 @@ function Chat({ chatList,setPrompt}) {
           <div className="flex lg:flex-row flex-col xl:space-x-6 space-x-2 mx-auto lg:w-[90%] xl:w-[70%] w-full justify-center max-lg:space-y-2" >
             <Card pressable={true} titre="Exemples" setPrompt={setPrompt} list={Exemples} icon={<BsSun size={24}/>} />
             <Card titre="Capabilities" list={Capabilities} icon={<TiFlashOutline size={24}/>} />
-            <Card titre="Limitations" list={Limitations}  icon={<AiOutlineWarning size={24}/>}/>
+            <Card titre="Limitations" list={Limitations}  icon={<VscWarning size={24}/>}/>
           </div>
         </div>
       ) : (
