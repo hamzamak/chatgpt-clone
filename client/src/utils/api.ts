@@ -1,4 +1,4 @@
-const BASE_URL = 'https://chatgpt-xv64.onrender.comss'
+const BASE_URL = 'https://chatgpt-xv64.onrender.comd'
 
 export const sendPrompt = async (prompt : string) => {
     const options = {
