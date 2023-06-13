@@ -1,11 +1,13 @@
 import Card from "./Card";
-import { FaRobot } from "react-icons/fa";
-import { BsFillPersonFill } from "react-icons/bs";
 import Typewriter from "../hooks/Typewriter";
 import { Capabilities, Limitations, Exemples } from "../constant";
+
+import { FaRobot } from "react-icons/fa";
+import { BsFillPersonFill } from "react-icons/bs";
 import { BsSun } from "react-icons/bs";
 import {TiFlashOutline} from 'react-icons/ti'
 import {VscWarning} from 'react-icons/vsc'
+
 function Chat({ chatList,setPrompt}) {
   return (
     <div className="p-0.5 md:ml-[255px] mb-52">
